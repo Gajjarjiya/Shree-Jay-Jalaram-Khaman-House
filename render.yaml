@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: shree-jay-jalaram-khaman-house
+    runtime: static
+    staticPublishPath: ./
+    pullRequestPreviewsEnabled: false
