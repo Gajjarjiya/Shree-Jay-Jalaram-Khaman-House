@@ -2,18 +2,18 @@ const PHONE='919898794111';
 const products=[
 {id:'vatidal',name:'Vatidal Khaman',category:'khaman',price:320,unit:'per kg',portion:'1 kg',desc:'Soft, savoury traditional vatidal khaman.',image:'assets/vatidal-khaman.jpg'},
 {id:'nylon',name:'Nylon Khaman',category:'khaman',price:320,unit:'per kg',portion:'1 kg',desc:'Light, delicate and wonderfully spongy.',image:'assets/nylon-khaman.jpg'},
-{id:'sandwich',name:'Sandwich Dhokla',category:'khaman',price:350,unit:'per kg',portion:'1 kg',desc:'A classic layered Gujarati dhokla favourite.',image:'assets/sandwich-dhokla.jpg'},
+{id:'sandwich',name:'Sandwich Dhokla',category:'khaman',price:360,unit:'per kg',portion:'1 kg',desc:'A classic layered Gujarati dhokla favourite.',image:'assets/sandwich-dhokla.jpg'},
 {id:'khandvi',name:'Khandvi',category:'snacks',price:360,unit:'per kg',portion:'1 kg',desc:'Delicate rolls finished with a gentle tempering.',image:'assets/khandvi.jpg'},
 {id:'patra',name:'Patra',category:'snacks',price:360,unit:'per kg',portion:'1 kg',desc:'Traditional patra with a flavourful seasoning.',image:'assets/patra.jpg'},
-{id:'sev',name:'Sev Khamani',category:'snacks',price:350,unit:'per kg',portion:'1 kg',desc:'A savoury favourite topped with fine sev.',image:'assets/sev-khamani.jpg'},
+{id:'sev',name:'Sev Khamani',category:'snacks',price:360,unit:'per kg',portion:'1 kg',desc:'A savoury favourite topped with fine sev.',image:'assets/sev-khamani.jpg'},
 {id:'kora',name:'Kora Khaman',category:'khaman',price:200,unit:'per kg',portion:'1 kg',desc:'Simple, soft and full of familiar flavour.',image:'assets/kora-khaman.jpg'},
-{id:'samosa',name:'Samosa',category:'snacks',price:120,unit:'12 pieces',portion:'12 pieces',desc:'Crisp golden samosas with a savoury filling.',image:'assets/samosa.jpg'},
+{id:'samosa',name:'Navtad Samosa',category:'snacks',price:120,unit:'12 pieces',portion:'12 pieces',desc:'Crisp golden samosas with a savoury filling.',image:'assets/samosa.jpg'},
 {id:'chinese',name:'Chinese Samosa',category:'snacks',price:160,unit:'12 pieces',portion:'12 pieces',desc:'A crunchy snack with a lively Indo-Chinese filling.',image:'assets/chinese-samosa.jpg'},
-{id:'cheese-corn',name:'Cheese Corn',category:'snacks',price:280,unit:'12 pieces',portion:'12 pieces',desc:'Cheese corn rolls from the supplied menu card.',image:'assets/cheese-corn.jpg'}
+{id:'cheese-corn',name:'Cheese Corn Roll',category:'snacks',price:280,unit:'12 pieces',portion:'12 pieces',desc:'Cheese corn rolls from the supplied menu card.',image:'assets/cheese-corn.jpg'}
 ];
 const branches=[
 {name:'Nehrunagar Outlet',label:'MAIN OUTLET',address:'Shop No. 2, Gopal Krishna Shopping Centre, Beside Jain Derasar, Nehrunagar Circle, Ahmedabad, Gujarat 380015',phone:'+91 98987 94111',hours:'8:00 AM – 7:00 PM',query:'Shop No 2 Gopal Krishna Shopping Center Beside Jain Derasar Nehrunagar Circle Ahmedabad Gujarat 380015'},
-{name:'Paldi Outlet',label:'ADDITIONAL OUTLET',address:'Survey 1001/6/815/A/6, Mahalaxmi Panch Rasta, Paldi, Ahmedabad, Gujarat',phone:'Contact main outlet for assistance',hours:'8:00 AM – 7:00 PM · confirm locally',query:'Survey 1001/6/815/A/6 Mahalaxmi Panch Rasta Paldi Ahmedabad Gujarat'}
+{name:'Paldi Outlet',label:'ADDITIONAL OUTLET',address:'Survey 1001/6/815/A/6, Mahalaxmi Panch Rasta, Paldi, Ahmedabad, Gujarat',phone:'+91 75729 394151',hours:'8:00 AM – 7:00 PM · confirm locally',query:'Survey 1001/6/815/A/6 Mahalaxmi Panch Rasta Paldi Ahmedabad Gujarat'}
 ];
 let cart={};let lastInvoice=null;
 const $=s=>document.querySelector(s);const money=n=>'₹'+Number(n).toLocaleString('en-IN');
